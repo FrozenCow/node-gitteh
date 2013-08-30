@@ -7,7 +7,6 @@ TODO.md
 .gitmodules
 .travis.yml
 .node-version
-Cakefile
 LIBGIT2_BUGS.md
 test/
 src/*.coffee
