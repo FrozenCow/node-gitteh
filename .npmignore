@@ -9,5 +9,4 @@ TODO.md
 .node-version
 LIBGIT2_BUGS.md
 test/
-src/*.coffee
 CHANGELOG.md
