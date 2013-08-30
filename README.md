@@ -34,19 +34,9 @@ Contributions are very welcome. Please feel free to fork this project and hack o
 
 ### Building
 
-In order to build Gitteh, you first need to install coffee-script.
-[Coffee-script](http://coffeescript.org/) is not needed to use the library, only to 
-work with the source.
-
-    npm install -g coffee-script
-
-Next, you need to install gitteh's dependencies. In gitteh's root directory, run:
+We use npm to install gitteh's dependencies, build the native bindings and compile the coffeescripts. In gitteh's root directory, run:
 
     npm install
 
-Lastly, you need to compile and build gitteh
-
-    cake build
-
-It should generate `lib/gitteh.js` for you to use. Happy hacking!
+Happy hacking!
 
