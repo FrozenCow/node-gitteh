@@ -22,7 +22,7 @@ Gitteh aims to:
 
 There's a few libraries out there that wrap git cli commands, parsing the output and such. This is a perfectly acceptable solution. Node-gitteh provides first-class support to work with a git repository on a low level, and does not require git.git (and its myriad of dependencies) to be installed in the server environment.
 
-[Documentation can be found here](http://libgit2.github.com/node-gitteh/docs/index.html). You should also check out the examples in the examples/ dir in the repo.
+The documentation is currently outdated. We're working on a new version currently for the new 0.17.x version of gitteh. The [Old pre-0.17.x documentation can be found here](http://libgit2.github.com/node-gitteh/docs/index.html). Instead, you should visit [`examples`](https://github.com/libgit2/node-gitteh/tree/master/examples) dir in the repo to see examples of 0.17.x usage.
 
 ## License
 
@@ -31,3 +31,12 @@ Gitteh is available under the MIT License. See the LICENSE file for more informa
 ## Contributing
 
 Contributions are very welcome. Please feel free to fork this project and hack on it. Go ahead and check out the issues tab to see what needs to be done! Go on! Do it!
+
+### Building
+
+We use npm to install gitteh's dependencies, build the native bindings and compile the coffeescripts. In gitteh's root directory, run:
+
+    npm install
+
+Happy hacking!
+

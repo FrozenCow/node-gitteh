@@ -30,7 +30,9 @@
   "scripts": {
     "preinstall": "node preinstall.js",
     "install": "node install.js",
-    "test": "mocha"
+    "prepublish": "node prepublish.js",
+    "test": "mocha",
+    "watch": "coffee -o lib/ -w -c src/"
   },
   "main": "./lib/gitteh"
 }
