@@ -56,7 +56,7 @@ namespace gitteh {
 		Handle<Object> Create(git_tree *tree) {
 			HandleScope scope;
 			Handle<Object> o = Object::New();
-
+			o->Set(id_symbol, CastToJS(git_tree_id(tree)));
 			Handle<Array> entries = Array::New();
 			int entryCount = git_tree_entrycount(tree);
 			for(int i = 0; i < entryCount; i++) {
